@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&family=Ubuntu:wght@300&display=swap");
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+* {
+  --primary-color: red;
+  --secondary-color: white;
+  --tertiary-color: #2563eb;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.badge {
+  position: relative;
+  font-size: 0.79rem;
+  font-weight: bold;
+  background-color: var(--primary-color);
+  border-radius: 2rem;
+  width: max-content;
+  color: var(--secondary-color);
+}
+
+.text {
+  margin: 2rem;
+  font-weight: bold;
+}
+
+.badge-on-text {
+  top: -0.8rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.large-badge-on-text {
+  top: -0.8rem;
+  left: -0.3rem;
+  padding: 0.5rem 0.5rem;
+}
+
+.button1 {
+  padding: 0.6rem 0.8rem;
+  border-radius: 0.5rem;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: 0px;
+  font-size: 1rem;
+}
+
+.badge-on-button {
+  top: -3.9rem;
+  right: 0.9rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.fas {
+  font-size: 3rem;
+}
+
+.badge-on-icon {
+  top: -4.3rem;
+  left: 2.7rem;
+  padding: 0.3rem 0.5rem;
+}
