@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&family=Ubuntu:wght@300&display=swap");
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.btn,
+.link-btn,
+.btn-icon {
+  border: none;
+  background-color: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn:hover,
+.link-btn:hover,
+.btn-icon:hover {
+  opacity: 0.8;
+}
+.btn-float {
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 0.5rem 0.5rem;
+  background-color: #0e9aeb;
+  transition: transition 0.2s;
+  cursor: pointer;
+}
+.btn-float:hover {
+  transform: translateY(-10%);
+}
+.primary {
+  background-color: #9333ea;
+  color: #fff;
+}
+.secondary {
+  background-color: #2563eb;
+  color: #fff;
+}
+.success {
+  background-color: #22c55e;
+  color: #fff;
+}
+.danger {
+  background-color: #dc2626;
+  color: #fff;
+}
+.warning {
+  background-color: #facc15;
+  color: #fff;
+}
+.default {
+  background-color: #64748b;
+  color: #fff;
+}
+.link-btn {
+  background-color: #06aed8;
+  color: #fff;
+}
+.outlined-primary {
+  background-color: white;
+  color: #9333ea;
+  border: 0.5px solid #9333ea;
+}
+.outlined-primary:hover {
+  color: white;
+  background-color: #9333ea;
+}
+
+.outlined-secondary {
+  background-color: white;
+  color: #2563eb;
+  border: 0.5px solid #2563eb;
+}
+.outlined-secondary:hover {
+  color: white;
+  background-color: #2563eb;
+}
+
+.outlined-success {
+  background-color: white;
+  color: #22c55e;
+  border: 0.5px solid #22c55e;
+}
+.outlined-success:hover {
+  color: white;
+  background-color: #22c55e;
+}
+
+.outlined-danger {
+  background-color: white;
+  color: #dc2626;
+  border: 0.5px solid #dc2626;
+}
+.outlined-danger:hover {
+  color: white;
+  background-color: #dc2626;
+}
+
+.outlined-warning {
+  background-color: white;
+  color: #facc15;
+  border: 0.5px solid #facc15;
+}
+.outlined-warning:hover {
+  color: white;
+  background-color: #facc15;
+}
+
+.outlined-default {
+  background-color: white;
+  color: #64748b;
+  border: 0.5px solid #64748b;
+}
+.outlined-default:hover {
+  color: white;
+  background-color: #64748b;
+}
+
+.outlined {
+  background-color: white;
+  color: #06aed8;
+  border: 0.5px solid #06aed8;
+}
+
+.outlined:hover {
+  background-color: #06aed8;
+  color: white;
+  border: 0.5px solid #06aed8;
+}
+
+.frame-container {
+  margin-top: 1.5rem;
+}
